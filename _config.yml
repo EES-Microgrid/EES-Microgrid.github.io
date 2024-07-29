@@ -154,7 +154,7 @@ content_width: "920px"
 # this and add the path to the pages in order as they should show up
 header_pages:
    - index.html
-   - Experimental Setup.html
+   - archives.html
    - categories.html
    - tags.html
    - about.md
