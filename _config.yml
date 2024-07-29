@@ -161,7 +161,7 @@ header_pages:
 
 # Page default value
 # defaults:
-#   home:
+home:
 heading: "Embrace Microgrids"
 subheading: "The power of independence for a sustainable future..."
 #     banner: "Your image url"
