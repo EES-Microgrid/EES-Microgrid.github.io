@@ -160,10 +160,10 @@ content_width: "920px"
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+defaults:
+   home:
+     heading: "Embrace Microgrids"
+     subheading: "The power of independence for a sustainable future..."
 #     banner: "Your image url"
 
 # Banner default settings
