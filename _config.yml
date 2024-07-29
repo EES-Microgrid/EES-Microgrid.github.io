@@ -161,7 +161,7 @@ header_pages:
 
 # Page default value
 # defaults:
-home: "Embrace"
+# home:
 heading: "Embrace Microgrids"
 subheading: "The power of independence for a sustainable future..."
 #     banner: "Your image url"
@@ -194,10 +194,10 @@ subheading: "The power of independence for a sustainable future..."
 # paginate: 5
 
 # Photo previewer settings (PhotoSwipe 5)
-# the options please refer to: https://photoswipe.com/options/
-# photo_previewer:
-#  gallery: "section.main"
-#  children: "a.photo-swipe"
+the options please refer to: https://photoswipe.com/options/
+photo_previewer:
+gallery: "section.main"
+children: "a.photo-swipe"
 #  bgOpacity: 0.8
 #  padding:
 #    top: 20
