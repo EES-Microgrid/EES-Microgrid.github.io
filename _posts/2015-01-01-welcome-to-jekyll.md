@@ -3,7 +3,7 @@ layout: post
 title: Microgrid Overview!
 subtitle: Delve into Distributed Energy Resources.
 author: Jacob
-categories: jekyll
+# categories: jekyll
 banner:
   video: "/assets/videos/banner/vid.mp4"
   loop: true
