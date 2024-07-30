@@ -9,7 +9,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: https://bit.ly/3xTmdUP
+  image: https://www.researchgate.net/publication/354397566/figure/fig1/AS:1065318776578048@1631003197624/Structure-of-a-typical-microgrid-The-contributions-of-this-paper-are-shown-as-below.png
   opacity: 0.618
   background: "#000"
   height: "100vh"
