@@ -26,7 +26,9 @@ resources within clearly defined electrical boundaries that acts as a single
 controllable entity with respect to the grid. A microgrid can operate
 in either grid-connected or in island mode, including entirely off-grid
 applications.
+
 ![img.png](img.png)
+
 Generally the key components include:
 1. Electricity generation resources (e.g., solar arrays, diesel or natural gas
 generators, wind turbines)
