@@ -4,6 +4,39 @@
 
 layout: home
 title: Experimental Setup
-banner: "/assets/images/banners/home.jpg"
+# banner: "/assets/images/banners/home.jpg"
 ---
+
+---
+layout: home
+title: Experimental Setup
+---
+
+## Overview
+
+Welcome to the Experimental Setup page. This section outlines the setup and methodology for our ongoing experiments.
+
+<div class="slideshow-container">
+  <img src="{{ '/assets/images/slideshow/pv.jpg' | relative_url }}" class="slideshow-image fade">
+  <img src="{{ '/assets/images/slideshow/wind.jpeg' | relative_url }}" class="slideshow-image fade">
+  <img src="{{ '/assets/images/slideshow/fix.jpg' | relative_url }}" class="slideshow-image fade">
+</div>
+
+<script>
+  let slideIndex = 0;
+  function showSlides() {
+    let slides = document.getElementsByClassName("slideshow-image");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1 }
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+  showSlides();
+</script>
+
+
+
 
