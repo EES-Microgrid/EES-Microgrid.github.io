@@ -9,6 +9,8 @@ top: 1
 ---
 
 ![banner](https://github.com/jeffreytse/jekyll-theme-yat/assets/9413601/2ed22d49-90b1-4f7e-8e8f-b77b21dee505)
+ 
+[![Watch the video](https://img.youtube.com/vi/pWBXfZRNqXw?si=kHT89v37MMwmWt0i/default.jpg)](https://youtu.be/pWBXfZRNqXw?si=kHT89v37MMwmWt0i)
 
 Paragraphs are separated by a blank line.
 
