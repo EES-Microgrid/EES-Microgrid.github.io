@@ -5,7 +5,7 @@ subtitle: Operation and control of microgrids
 excerpt_image: https://github.com/jeffreytse/jekyll-theme-yat/assets/9413601/2ed22d49-90b1-4f7e-8e8f-b77b21dee505
 categories: markdown
 tags: [example]
-top: 2
+top: 1
 ---
 
 ![banner](https://github.com/jeffreytse/jekyll-theme-yat/assets/9413601/2ed22d49-90b1-4f7e-8e8f-b77b21dee505)
