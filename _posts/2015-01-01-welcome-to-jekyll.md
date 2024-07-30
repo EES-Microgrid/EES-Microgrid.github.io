@@ -29,8 +29,7 @@ applications.
 
 ## section 1
 
-Generally the key components
-include:
+Generally the key components include:
 1. Electricity generation resources (e.g., solar arrays, diesel or natural gas
 generators, wind turbines)
 2. Battery energy storage
