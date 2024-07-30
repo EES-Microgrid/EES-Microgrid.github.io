@@ -5,7 +5,7 @@ subtitle: Delve into Distributed Energy Resources.
 author: Jacob
 categories: jekyll
 banner:
-  video: https://youtu.be/6Bh6MXHqL7k?si=_vsp-E4dRqjg-Bf9
+  video: "/assets/videos/banner/vid.mp4"
   loop: true
   volume: 0.8
   start_at: 8.5
