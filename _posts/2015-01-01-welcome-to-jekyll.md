@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subtitle: A awesome static site generator.
-author: Jeffrey
+title: Microgrid Overview!
+subtitle: Delve into Distributed Energy Resources.
+author: Jacob
 categories: jekyll
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
+  video: https://youtu.be/6Bh6MXHqL7k?si=_vsp-E4dRqjg-Bf9
   loop: true
   volume: 0.8
   start_at: 8.5
@@ -21,21 +21,23 @@ top: 1
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A microgrid is a group of interconnected loads and distributed energy
+resources within clearly defined electrical boundaries that acts as a single
+controllable entity with respect to the grid. A microgrid can operate
+in either grid-connected or in island mode, including entirely off-grid
+applications.
 
 ## section 1
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Generally the key components
+include:
+1. Electricity generation resources (e.g., solar arrays, diesel or natural gas
+generators, wind turbines)
+2. Battery energy storage
+3. Microgrid control systems: typically, microgrids are managed through a
+central controller that coordinates distributed energy resources, balances
+electrical loads, and is responsible for disconnection and reconnection of
+the microgrid to the main grid.
 
 ## section 2
 
