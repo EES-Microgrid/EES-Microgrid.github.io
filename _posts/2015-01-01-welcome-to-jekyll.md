@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Microgrid Overview!
-subtitle: Delve into Distributed Energy Resources.
+#title: Microgrid Overview!
+#subtitle: Delve into Distributed Energy Resources.
 author: Jacob
 categories: jekyll
 banner:
