@@ -38,7 +38,7 @@ central controller that coordinates distributed energy resources, balances
 electrical loads, and is responsible for disconnection and reconnection of
 the microgrid to the main grid.
 
-Resilience Benefits of Microgrids
+**Resilience Benefits of Microgrids**
 The primary resilience benefit of microgrids is their ability to disconnect from the main grid when there
 is an outage and operate autonomously. Thus, facilities connected to and powered by the microgrid can
 continue serving a community during an outage. This ability to continue serving critical loads, such as
@@ -47,6 +47,7 @@ Depending on their components, microgrids may also be able to provide additional
 benefits above and beyond energy resilience benefits:
 • Microgrids that incorporate renewable energy resources can have environmental
 benefits in terms of reduced greenhouse gas emissions and air pollutants.
+
 • In some cases, microgrids can sell power back to the grid during normal operations.
 However, microgrids are just one way to improve the energy resilience of an electric grid
 and they do have some potential disadvantages:
