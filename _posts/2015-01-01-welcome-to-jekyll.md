@@ -38,7 +38,7 @@ central controller that coordinates distributed energy resources, balances
 electrical loads, and is responsible for disconnection and reconnection of
 the microgrid to the main grid.
 
-**Resilience Benefits of Microgrids**
+**Resilience Benefits of Microgrids:**
 The primary resilience benefit of microgrids is their ability to disconnect from the main grid when there
 is an outage and operate autonomously. Thus, facilities connected to and powered by the microgrid can
 continue serving a community during an outage. This ability to continue serving critical loads, such as
