@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+# tags: jekyll theme yat
 top: 1
 sidebar: []
 ---
@@ -49,7 +49,7 @@ benefits above and beyond energy resilience benefits:
 benefits in terms of reduced greenhouse gas emissions and air pollutants.
 
 • In some cases, microgrids can sell power back to the grid during normal operations.
-However, microgrids are just one way to improve the energy resilience of an electric grid
+However, microgrids are just one way to improve the energy resilience of an electric grid,
 and they do have some potential disadvantages:
 • Depending on the complexity, microgrids can have high upfront capital costs.
 • Microgrids are complex systems that require specialized skills to operate
