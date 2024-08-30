@@ -33,8 +33,4 @@ In order to withstand the outdoors for many years, cells are sandwiched between 
 To boost the power output of PV cells, they are connected together in chains to form larger units known as modules or panels. Modules can be used individually, or several can be connected to form arrays. One or more arrays is then connected to the electrical grid as part of a complete PV system. Because of this modular structure, PV systems can be built to meet almost any electric power need, small or large.
 PV modules and arrays are just one part of a PV system. Systems also include mounting structures that point panels toward the sun, along with the components that take the direct-current (DC) electricity produced by modules and convert it to the alternating-current (AC) electricity used to power all of the appliances in your home.
 <br><br>
-![PV Diagram](/assets/images/banners/pv.png)
 
-**c) Wind Energy Conversion System:**
-
-**c) Battery Storage System:**
