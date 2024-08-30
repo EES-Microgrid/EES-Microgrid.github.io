@@ -6,10 +6,10 @@
 
 <!--    just commented it out-->
 
-<!--    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">-->
-<!--      {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}-->
-<!--      <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}-->
-<!--    </time>-->
+    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+      {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
+      <i class="fa fa-calendar"></i> {{ page.date | date: date_format }}
+    </time>
 
     {%- if page.author -%}
     <span class="post-author left-vsplit"><i class="fa fa-pencil"></i> {{ page.author | escape }}</span>
