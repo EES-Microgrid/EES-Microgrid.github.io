@@ -21,10 +21,10 @@ top: 1
 sidebar: []
 ---
 
-Energy sources are either renewable, meaning they can easily be replenished, or nonrenewable, meaning they draw on finite resources. Learn about renewable energy resources and how we can use nonrenewable energy sources more efficiently.
+There are two types of energy sources: nonrenewable, which uses limited resources, and renewable, which is easily renewed. Discover the benefits of using renewable energy sources and how to make better use of nonrenewable ones.
 
 **a) Microgrids in General:**
-  Microgrids are a group of localized sources and loads that normally operate connected to and synchronous with the traditinal centralized electrical grid, but can also operate autonomously as a standalnone system. The autonomy allows them to be resilient during outages and to integrate renewable energy sources efficiently.
+ A collection of localized sources and loads, known as a microgrid, can function independently as a stand-alone system in addition to being connected to and operating in synchrony with the traditional centralized electrical grid. They can effectively integrate renewable energy sources and remain robust during blackouts because to their autonomy.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6Bh6MXHqL7k?si=0EGF9_WQH0bO9iOd" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
 **b) Solar Photovoltaics:**
