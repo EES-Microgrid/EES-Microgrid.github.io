@@ -67,7 +67,7 @@ banner: "/assets/images/banners/home.jpg"
 <img src="/assets/images/banners/flowchart.png" alt="Microgrid Image" style="max-width: 100%; height: auto; margin-bottom: 20px;">
 
 
-<p style="text-align: right; margin-bottom: 30px;">
+<p style="text-align: right; margin-bottom: 20px;">
     <a href="https://farzaneh-lab.kyushu-u.ac.jp/index.html"
        style="
            display: inline-block;
@@ -80,9 +80,18 @@ banner: "/assets/images/banners/home.jpg"
            border-radius: 5px;
            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+           animation: blink 1s step-start infinite;
        "
        onmouseover="this.style.backgroundColor='#004a99'; this.style.boxShadow='0 6px 8px rgba(0, 0, 0, 0.2)';"
        onmouseout="this.style.backgroundColor='#0066cc'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.1)';">
-       EES-Lab Main site
+       EES-Lab Main
     </a>
 </p>
+
+<style>
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+</style>
