@@ -7,7 +7,6 @@ title: Research
 banner: "/assets/images/banners/home.jpg"
 ---
 
-<style>
 @keyframes blink {
     0% { opacity: 1; }
     50% { opacity: 0; }
@@ -25,6 +24,11 @@ banner: "/assets/images/banners/home.jpg"
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    position: relative;
+}
+
+.blinking-text span {
+    display: inline-block;
     animation: blink 1s step-start infinite;
 }
 
@@ -32,10 +36,10 @@ banner: "/assets/images/banners/home.jpg"
     border-color: #0056b3;
 }
 
-.blinking-text:hover {
+.blinking-text:hover span {
     color: #0056b3;
 }
-</style>
+
 
 <p style="text-align: right;">
     <a href="https://farzaneh-lab.kyushu-u.ac.jp/Experiment.html" class="blinking-text">EES-Lab Main Site</a>
