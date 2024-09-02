@@ -7,7 +7,7 @@ title: Experimental Setup
 
 <h2>Indoor Microgrid Experimental Setup</h2>
 
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The lab-scale test system is equipped with real elements and emulators for real-time measurement and monitoring of current and voltage from the photovoltaic system, direct-drive wind energy conversion system, battery storage, and DC load, representing a possible
 microgrid installed in remote residential areas. Furthermore, the setup is equipped with high-precision measurement devices and a data acquisition system, that incorporates a highly precise logging sample time of 1s. This short duration necessitates supervisory
 monitoring of dynamic system behavior, capturing all response events subject to changes in load and generation resources in real-time operation. The experimental system is used to validate the developed simulation models by applying the outdoor weather
@@ -21,7 +21,7 @@ The experimental setup is composed of the following components:
 </p>
 
 <h2>1. Photovoltaic Panel:</h2>
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The PV panel, an RNG-50D-SS (RENOGY) monocrystalline solar panel rated 50W with a high efficiency grow light (TSW2000),mounted above it, whose intensity is varied with a dimmer switch calibrated from 0 to 100 in 25 intervals. The light intensity (910μmol/18in.) is 50%
 more photon efficient and emits most light in the 400–700nm waveband, which is the range of maximum radiation from the sun based on the solar spectrum. The light provides the necessary radiation for the PV panel. Additionally, two fans are placed side-by-side and one
 at the bottom of the PV panel for cooling to enhance its power output. An irradiation meter (TES-132) is connected to a lux sensor, where the latter is placed on top of the solar panel to measure the amount of light incident on it. Thermocouples are used for measuring
@@ -31,34 +31,34 @@ PV DC disconnect breaker.
 </p>
 
 <h2>2. Wind Energy Conversion System:</h2>
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 A 100W horizontal axis wind turbine that uses PMSG is directly coupled to a 400W induction motor to generate rotational energy. A Mitsubishi Electric variable frequency drive (FREQDOL-D700) is used to vary the motor’s frequency (Hz), which changes its rpm. The
 equivalent rpm is measured with a digital tachometer (TI-900). The desired wind profile (m/s) that the wind turbine will experience is determined by the fluctuation in rpm. The current from one of the wind turbine generator’s phases is measured using a clamp meter
 (HIOKI-CT7631) which is connected to a display unit (CM7290) and then to the central signal logger (HIOKI-LR8431). The three-phase voltage is measured using a differential probe (P9000-02) and then connected to the central signal logger.
 </p>
 
 <h2>3. Energy Storage System:</h2>
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The battery is a 12V/10Ah AGM Deep Cycle battery. A clamp meter (HIOKI-CT7631) is clamped around the positive battery output cable for current measurement, then connected to a display unit (CM7290)
 and finally to the central signal logger. The battery voltage is also measured and logged by the central signal logger with two cables from the battery circuit breaker.
 </p>
 
 <h2>4. Dynamic Load:</h2>
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 A DC load generator (RIGOL DL3021) is used to create the desired load profile to be connected to the other system components. A clamp meter (HIOKI-CT7631) is used to measure the load current
 from the positive input channel terminal cable while the voltage is measured and logged by the central signal logger with two cables
 from the load circuit breaker.
 </p>
 
 <h2>5. MPPT Controller:</h2>
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 To integrate all the system components (PV system, wind energy conversion system, battery storage, and load), an MPPT wind/ solar hybrid controller is used. This controller is equipped with solar reverse charging, battery reverse polarity, battery open circuit,
 over-voltage, over-current, overload, and lightning protection. When the wind is strong or over-voltage (maximum 14.4V for a lead acid/ Gel battery in a 12V system), the controller automatically starts the braking functionality and cuts off the circuit to protect
 the system. Using a USB 2.0 mini-B cable, all the component (solar PV system, wind energy conversion system, battery, and load) voltages and currents from the central signal logger (HIOKI-LR8431) are displayed on a control station monitor with HIOKI (PQ ONE) application
 software for analyzing the measurement data.
 </p>
 
-<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify">
+<p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The indoor experimental system facilitates simulation model validation and is shown below:</p>
 
 <img src="/assets/images/banners/exptsetup.png" alt="Microgrid Image" style="max-width: 100%; height: auto; margin-bottom: 20px;">
