@@ -15,26 +15,49 @@ banner: "/assets/images/banners/home.jpg"
 }
 
 .blinking-text {
-    animation: blink 1s step-start infinite;
-    border: none;
+    position: relative;
     padding: 10px 20px;
-    color: #fff;
-    background-color: #007bff;
+    color: #007bff; /* Text color */
+    background-color: transparent; /* No background color */
     font-size: 16px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    border: 2px solid #007bff; /* Border color to match text */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.blinking-text::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: inherit;
+    animation: blink 1s step-start infinite;
+}
+
+.blinking-text span {
+    position: relative;
+    color: #007bff; /* Text color */
+    z-index: 1;
 }
 
 .blinking-text:hover {
-    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.blinking-text:hover span {
+    color: #0056b3;
 }
 </style>
 
 <p style="text-align: right;">
     <a href="https://farzaneh-lab.kyushu-u.ac.jp/Experiment.html">
-        <button class="blinking-text">EES Lab Main Site</button>
+        <button class="blinking-text" data-text="EES Lab Main Site">
+            <span>EES-Lab Main Site</span>
+        </button>
     </a>
 </p>
 
