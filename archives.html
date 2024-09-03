@@ -4,8 +4,7 @@ title: Experimental Setup
 ---
 
 <!--just added the content-->
-
-<h2> a) Indoor Microgrid Experimental Setup</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">a) Indoor Microgrid Experimental Setup</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1.1em; line-height: 1.6; margin-bottom: 15px; font-style: italic">
  Adapted from: <a href="https://www.sciencedirect.com/science/article/pii/S0196890422012407" style="color: #0066cc; text-decoration: none;"> <u> Jacob, E., & Farzaneh, H. (2022). Dynamic modeling and experimental validation of a standalone hybrid microgrid system in Fukuoka, Japan. Energy Conversion and Management, 274, 116462. </u> </a>
@@ -29,7 +28,8 @@ conditions.The connection schematic is detailed below;
 The experimental setup is composed of the following components:
 </p>
 
-<h2>1. Photovoltaic Panel:</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">1. Photovoltaic Panel:</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The PV panel, an RNG-50D-SS (RENOGY) monocrystalline solar panel rated 50W with a high efficiency grow light (TSW2000),mounted above it, whose intensity is varied with a dimmer switch calibrated from 0 to 100 in 25 intervals. The light intensity (910μmol/18in.) is 50%
 more photon efficient and emits most light in the 400–700nm waveband, which is the range of maximum radiation from the sun based on the solar spectrum. The light provides the necessary radiation for the PV panel. Additionally, two fans are placed side-by-side and one
@@ -39,27 +39,31 @@ then connected to a display unit (CM7290) that also functions as an analog to di
 PV DC disconnect breaker.
 </p>
 
-<h2>2. Wind Energy Conversion System:</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">Wind Energy Conversion System:</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 A 100W horizontal axis wind turbine that uses PMSG is directly coupled to a 400W induction motor to generate rotational energy. A Mitsubishi Electric variable frequency drive (FREQDOL-D700) is used to vary the motor’s frequency (Hz), which changes its rpm. The
 equivalent rpm is measured with a digital tachometer (TI-900). The desired wind profile (m/s) that the wind turbine will experience is determined by the fluctuation in rpm. The current from one of the wind turbine generator’s phases is measured using a clamp meter
 (HIOKI-CT7631) which is connected to a display unit (CM7290) and then to the central signal logger (HIOKI-LR8431). The three-phase voltage is measured using a differential probe (P9000-02) and then connected to the central signal logger.
 </p>
 
-<h2>3. Energy Storage System:</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">3. Energy Storage System:</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The battery is a 12V/10Ah AGM Deep Cycle battery. A clamp meter (HIOKI-CT7631) is clamped around the positive battery output cable for current measurement, then connected to a display unit (CM7290)
 and finally to the central signal logger. The battery voltage is also measured and logged by the central signal logger with two cables from the battery circuit breaker.
 </p>
 
-<h2>4. Dynamic Load:</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">4. Dynamic Load:</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 A DC load generator (RIGOL DL3021) is used to create the desired load profile to be connected to the other system components. A clamp meter (HIOKI-CT7631) is used to measure the load current
 from the positive input channel terminal cable while the voltage is measured and logged by the central signal logger with two cables
 from the load circuit breaker.
 </p>
 
-<h2>5. MPPT Controller:</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">5. MPPT Controller:</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 To integrate all the system components (PV system, wind energy conversion system, battery storage, and load), an MPPT wind/ solar hybrid controller is used. This controller is equipped with solar reverse charging, battery reverse polarity, battery open circuit,
 over-voltage, over-current, overload, and lightning protection. When the wind is strong or over-voltage (maximum 14.4V for a lead acid/ Gel battery in a 12V system), the controller automatically starts the braking functionality and cuts off the circuit to protect
@@ -77,7 +81,8 @@ The indoor experimental system facilitates simulation model validation and is sh
     </p>
 </div>
 
-<h2> b) All-in-one Battery Testing (Keithley 2450 SMU) </h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">b) All-in-one Battery Testing (Keithley 2450 SMU)</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Frequently, disposable batteries are swapped out for rechargeable or secondary batteries. Ni-MH (Nickel Metal Hydride), NiCd (Nickel Cadmium), and Li-ion (Lithium Ion) are common types of rechargeable batteries. Testing the battery cycle is one method of assessing their dependability. Cycle tests reveal details about the battery's capacity, lifespan, and internal chemistry.
 An electronic load, voltmeter, ammeter, and programmable power supply are frequently used in a standard battery discharge/charge test. A typical device that can simultaneously monitor voltage and current as well as source and sink current is the 2450 SMU, which makes battery testing easier. Because of this, it can source current to charge the battery, dissipate power to drain the battery, and monitor bus readings (load current and battery voltage) while the test is running. It can also show these data simultaneously on its user interface along with the completed test duration. Based on the 4-quadrant operation, the 2450 SMU can either output ±210V @ ±105mA or ±21V @ ±1.05A.
@@ -91,8 +96,9 @@ This is shown in the figure below.
     </p>
 </div>
 
-<h2> Experimental Application </h2>
-<h2> 1. Rechargeable battery cycling test (charge/discharge) </h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">Experimental Application</h2>
+
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">1. Rechargeable battery cycling test (charge/discharge)</h2>
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The 2450 is set up to source voltage and measure current during either charging or discharging. Circuit diagram visualizations and device connections for both cycles are simplified below.
 </p>
@@ -104,12 +110,12 @@ The 2450 is set up to source voltage and measure current during either charging 
     </p>
 </div>
 
-<h2> i) Charging. </h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">i) Charging.</h2>
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Typically, a steady current is used to charge batteries. To accomplish this, the 2450 SMU is used as a voltage source that is adjusted to the battery's voltage rating and that has the intended charging current set as the current limit. The battery voltage is lower at the beginning of the test than the 2450's voltage output preset. Consequently, this voltage differential produces a current that is instantly restricted to the current limit set by the user. When the 2450 is in current limit, it functions as a continuous source of current until the voltage level is configured. The current drops until it hits zero or very close to zero as the battery gets completely charged.
 </p>
 
-<h2> ii) Discharging. </h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">ii) Discharging.</h2>
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The 2450 acts as a sink when a battery is being discharged since it is consuming power rather than producing it. The 2450's voltage source is configured to be lower than the voltage of the battery. The discharge rate is determined by the current limit. The battery's current enters the 2450's HI terminal when the output is activated. The present readings are negative as a result. Until the battery voltage drops to the 2450 voltage source value, the discharge current ought to remain constant.
 </p>
@@ -121,7 +127,8 @@ The 2450 acts as a sink when a battery is being discharged since it is consuming
     </p>
 </div>
 
-<h2>2. KickStart </h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">2. KickStart</h2>
+
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Using 2400 Graphical Touchscreen series SMUs, the KickStart Software Battery Simulator App offers additional battery cycle capabilities and source measure unit (SMU) support, enabling battery simulation and model production in a one box solution.
 By automating the collecting of millions of readings, KickStart Software saves time and facilitates data visualization.
