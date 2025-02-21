@@ -4,7 +4,7 @@ title: Experimental Setup
 ---
 
 <!--just added the content-->
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">1. Indoor Microgrid Experimental Setup</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">1. Indoor Microgrid Experimental Setup.</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1.1em; line-height: 1.6; margin-bottom: 15px; font-style: italic">
  Adapted from: <a href="https://www.sciencedirect.com/science/article/pii/S0196890422012407" style="color: #0066cc; text-decoration: none;"> <u> Jacob, E., & Farzaneh, H. (2022). Dynamic modeling and experimental validation of a standalone hybrid microgrid system in Fukuoka, Japan. Energy Conversion and Management, 274, 116462. </u> </a>
@@ -81,19 +81,19 @@ The indoor experimental system facilitates simulation model validation and is sh
     </p>
 </div>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">2. Real-time Simulation and Testing (Speedgoat-Unit Target Machine)</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">2. Real-time Simulation and Testing (Speedgoat-Unit Target Machine).</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 In<a href="https://blob.opal-rt.com/medias/L00161_0436.pdf" style="color: #0066cc; text-decoration: none;"> real-time simulators</a>, to avoid overruns, the simulation internal variables and outputs must be precisely generated in the same amount of time as their physical counterparts. Furthermore, the accuracy of computations depends on the system's precise dynamic representation and the length of time used to produce results. Real-time target machines can be configured as either controllers if physical plants are available (for rapid control prototyping:-RCP), but integration requires other components like sensors and dedicated I/O modules or they can be used as digital twins of physical plants (for hardware-in-the-loop:-HiL simulation), where external industrial controllers like PLC are used to control the digital twin in the host target machine. The <a href="https://www.speedgoat.com/" style="color: #0066cc; text-decoration: none;"> Speedgoat</a> real-time simulation platform, offers unparalleled workflow integration with MATLAB/Simulink through Simulink real-time. The target machine can also be instrumented using the MATLAB App Designer and XIL-interfaced test automation software environments.
 </p>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">a) Hardware-in-the-Loop Simulation (HiL)</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">a) Hardware-in-the-Loop Simulation (HiL):</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Conventional testing is typically conducted either on a dedicated laboratory testbed or directly on physical equipment. This approach can be expensive, ineffective, and even a safety hazard, although it provides testing fidelity. An excellent substitute is HiL simulation, in which a computer model that is identical to the actual plant (digital-twin) is run in real time on a simulator that is suitably outfitted with inputs and outputs (I/Os) that can interface with control systems and other equipment.
 </p>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">b) Rapid Control Prototyping (RCP)</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">b) Rapid Control Prototyping (RCP):</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 RCP involves automatically importing controller mathematical models/designs, usually from MATLAB/Simulink through Simulink real-time, into a real-time simulator that has input/output (I/O) interfaces set up before the models are connected to actual systems.
@@ -106,7 +106,7 @@ RCP involves automatically importing controller mathematical models/designs, usu
     </p>
 </div>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">3. All-in-one Battery Testing (Keithley 2450 SMU)</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: bold; color: #333; margin-top: 20px;">3. All-in-one Battery Testing (Keithley 2450 SMU).</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Frequently, disposable batteries are swapped out for rechargeable or secondary batteries. Ni-MH (Nickel Metal Hydride), NiCd (Nickel Cadmium), and Li-ion (Lithium Ion) are common types of rechargeable batteries. Testing the battery cycle is one method of assessing their dependability. Cycle tests reveal details about the battery's capacity, lifespan, and internal chemistry.
@@ -121,9 +121,9 @@ This is shown in the figure below.
     </p>
 </div>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">Experimental Application</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">Experimental Application:</h2>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">a) Rechargeable battery cycling test (charge/discharge)</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">a) Rechargeable battery cycling test (charge/discharge):</h2>
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 The 2450 is set up to source voltage and measure current during either charging or discharging. Circuit diagram visualizations and device connections for both cycles are simplified below.
 </p>
@@ -152,7 +152,7 @@ The 2450 acts as a sink when a battery is being discharged since it is consuming
     </p>
 </div>
 
-<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">b) KickStart</h2>
+<h2 style="font-family: 'Roboto', sans-serif; font-size: 1.2em; font-weight: bold; color: #333; margin-top: 20px;">b) KickStart:</h2>
 
 <p style="font-family: 'Arial', sans-serif; font-size: 1em; line-height: 1.6; text-align: justify;">
 Using 2400 Graphical Touchscreen series SMUs, the KickStart Software Battery Simulator App offers additional battery cycle capabilities and source measure unit (SMU) support, enabling battery simulation and model production in a one box solution.
